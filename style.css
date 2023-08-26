@@ -1,0 +1,45 @@
+
+body {
+    background-color: black;
+}
+h1{
+    color: aqua;
+    text-align: center;
+    font-weight: bolder;
+}
+.main {
+    display: flex;
+    gap: 2px;
+    margin-left: 270px;
+    margin-top: 20px;
+    position: relative;
+}
+.main input {
+    margin-bottom: 2px;
+    text-align: center;
+    height: 24px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.main .player {
+    display:flex;
+    gap: 2px;
+    
+}
+.point input{
+    width: 90px;
+}
+
+input {
+    text-align: center;
+    border: 2px solid black;
+    text-transform: capitalize;
+    
+}
+.call input {
+    width: 92px;
+    margin-bottom: 2px;
+}
+.namepoint input, .ans{
+    width: 190px;
+}
